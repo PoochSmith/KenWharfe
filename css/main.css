@@ -105,6 +105,22 @@ font-family: 'Roboto Slab', serif;
 	background-position: 0% 0%;
 }
 
+.jumbotron.books {
+	background: url("../images/kenandgang.jpg");
+	background-size: cover;
+	background-position: 0% 0%;
+}
+
+
+.jumbotron.media{
+	background: url("../images/ken_walkabout.jpg");
+	background-size: cover;
+	background-position: 0% 0%;
+}
+
+
+
+
 
 
 
