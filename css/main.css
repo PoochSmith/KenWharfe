@@ -88,11 +88,25 @@ font-family: 'Roboto Slab', serif;
 	background: url("../images/dianaandken.jpg");
 	background-size: cover;
 	background-position: 0% 0%;
-	background-position: 0% 0%;
 	margin-top: 50px;
 	height: 800px;
 	padding: 0;
 }
+
+.jumbotron.contact {
+	background: url("../images/ken-mountain-diana.jpg");
+	background-size: cover;
+	background-position: 0% 0%;
+}
+
+.jumbotron.about {
+	background: url("../images/about-ken.jpg");
+	background-size: cover;
+	background-position: 0% 0%;
+}
+
+
+
 
 
 .nav {
@@ -139,7 +153,7 @@ font-family: 'Roboto Slab', serif;
 font-size: 36px;
 font-family: 'Noto Serif', serif;
 font-weight: 400;
-margin: 0 0 30px 0;
+margin: 15px 0 30px 0;
     color: #3a332e;
 }
 
@@ -154,6 +168,22 @@ margin-bottom: 15px;
 	font-family: 'Noto Serif', serif;
 font-weight: 400;
     color: #3a332e;
+}
+
+.pull {
+	margin-top: -100px;
+	background: white;
+}
+
+
+phone, email {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 15px;
+		font-family: 'Noto Serif', serif;
+		    color: #3a332e;
+
+
 }
 
 @media only screen and (min-width : 1200px) {
