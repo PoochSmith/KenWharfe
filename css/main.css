@@ -23,18 +23,19 @@ a, a:hover {
 }
 
 .logo h1 {
-font-size: 16px;
-font-family: 'Muli', sans-serif;
-font-weight: 200;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #8a8a8a;
+    letter-spacing: 0.01em;
 }
 
 .logo h3 {
 color: #3a332d;
 font-size: 36px;
-font-family: 'Noto Serif', serif;
 font-weight: 700;
-font-style: italic;
-}
+	}
 
 .logo h3 span {
     color: #c2c2c3;
@@ -132,8 +133,8 @@ font-family: 'Roboto Slab', serif;
 .nav a {
 	padding: 5px 15px;
     color: #3a332d;
-    font-family: 'Muli', sans-serif;
-    font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 400;    
     font-size: 20px;
     float: left;
     background: transparent;
@@ -167,21 +168,22 @@ font-family: 'Roboto Slab', serif;
 
 .article-head {
 font-size: 36px;
-font-family: 'Noto Serif', serif;
+font-family: 'Roboto Slab', serif;
 font-weight: 400;
 margin: 15px 0 30px 0;
     color: #3a332e;
 }
 
 .sub-head {
-font-size: 22px;
-font-family: 'Muli', sans-serif;
-color: #88888a;
+font-size: 28px;
+ font-weight: 200;
+    font-family: 'Roboto', sans-serif;color: #88888a;
 margin-bottom: 15px;
+font-weight: 400;
 }
 
 .read-more {
-	font-family: 'Noto Serif', serif;
+font-family: 'Roboto Slab', serif;
 font-weight: 400;
     color: #3a332e;
 }
@@ -192,14 +194,40 @@ font-weight: 400;
 }
 
 
-phone, email {
+phone, email, website {
 	display: block;
 	font-size: 18px;
 	margin-bottom: 15px;
-		font-family: 'Noto Serif', serif;
+font-family: 'Roboto Slab', serif;
 		    color: #3a332e;
+}
 
+.btn-primary {
+	background: #3a332e;
+	border: none;
+	
+}
 
+.btn-primary:hover {
+	background: #c2c2c3;
+	 cursor: pointer;
+
+}
+
+.btn-media  {
+	text-align: center;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.media-headline {
+	font-size: 20px;
+}
+
+h3.author {
+	    font-family: 'Roboto', sans-serif;color: #88888a;
+ font-size: 14px;
+ margin: 15px 0;
 }
 
 @media only screen and (min-width : 1200px) {
