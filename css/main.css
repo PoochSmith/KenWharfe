@@ -250,11 +250,61 @@ h3.author {
 	.jumbotron .display-4 {
 	    font-size: 25px;
 	}
+	.jumbotron {
+    height: 440px;
+	}
 }
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	
+	.logo h3 {
+		font-size: 22px;
+	}
+	
+	.logo h1 {
+		font-size: 14px;
+	}
+	
+	.header .col-2 {
+		width: 5%;
+	}
+	
+	.header .col-8 {
+		width: 90%;
+		padding: 0;
+	}
+	.logo {
+		height: 120px;
+	}
+	.header {
+		position: relative;
+	}
+	.btn-primary {
+    margin-bottom: 15px;
+    width: 100%;
+	}
+	.nav a {
+		font-size: 18px;
+	}
+	.nav a.contact {
+		width: 100%;
+		text-align: center;
+	}
+	.h2, h2 {
+    font-size: 26px;
+    margin: 15px 0;
+	}
+	.jumbotron {
+		height: 240px;
+	}
+	.article-head {
+    font-size: 26px;
+    }
+    .sub-head {
+    font-size: 18px;
+    }
 
 }
 
@@ -262,3 +312,14 @@ h3.author {
 @media only screen and (max-width : 480px) {
 
 }
+
+@media (min-width: 768px){
+		.collapse.navbar-collapse {
+	    display: -webkit-box!important;
+	    display: -ms-flexbox!important;
+	    display: flex!important;
+	    -ms-flex-preferred-size: auto;
+	    flex-basis: auto;
+	}
+}
+
